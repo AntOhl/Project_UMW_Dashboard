@@ -7,17 +7,17 @@ __Due to confidential data, the dashboard cannot be replicated from the code__
 ## BUSINESS INSIGHTS
   This project was summoned by __Under The Milky Way__, a company specialised in aggregating international film rights and distributing them on global VOD platforms. The digital shift has caused major changes in the film distribution market, resulting in a linear growth of the VOD market since 2012. To stay competitive, UMW has for ambition to use its current catalogue and its history of transactions to predict the performance of movies and identify potential opportunities.
 
-### New players
+#### New players
   The digital shift has contributed to the __transformation__ of the film distribution market. It has led to the development of new business models and therefore, new players such as __Apple__ (iTunes), __Google__, __Amazon__ and __Netflix__ have become competitive. The time where audience used to rush to theatres to view a movie is long gone and all media displays tend to converge to digital platforms.
 
-### Global Market
+#### Global Market
   
   The market is no longer local. Movies are sold in __packages of metadata__. The physical and financial barriers to international distribution are low. The __change in scale__ has created new difficulties for local platforms. Even though they are closer to the audience, they must now deal with the __threats__ of the __GAFAN__. This phenomenon is the result of the delinearization of the value chain – there are multiple ways to distribute a film nowadays. Amazon (Amazon Video) or Apple (iTunes) obtains their revenues from various activities – VOD is not their main source of revenue; they are therefore less vulnerable if a movie fails.
 
-### VOD revenues
+#### VOD revenues
   There are multiple models for VOD to collect revenues. Transactional VOD includes renting (the customer has the right to view the movie for a limited amount of time), or Electronic Sell Through. For these models, the right holder obtains a share of the sales revenues. Subscription VOD are VOD for which consumers pay a monthly fee. Right holders can earn their revenues from license fees (fixed payment for an amount of time), streaming (fee for the streaming time or Amazon Channels
 
-### Under the Milky Way is a VOD aggregator
+#### Under the Milky Way is a VOD aggregator
 UMW provides a comprehensive and experienced __middleman__ between __right-holders__ and __VOD platforms__. It is responsible for various aspects of the distribution chain, __legal, financial, technical, marketing and editorial__.
 
 ## UMW models to compete on the VOD market
@@ -34,20 +34,20 @@ Direct-To-Digital distribution on VOD platforms internationally (distribution op
 
 Our goal is to characterise the __performance__ of a movie, identifying the __features__ relevant to its success and its potential to be __cross-sold__ to new countries across various __platforms__. Under the Milky Way is a movie aggregator with offices in France and the US. It has gathered more than 5,000 films distributed in 15 platforms. It markets its movies in over 100 countries.
 
-### Our challenge
+#### Our challenge
 Using the UMW database, we developed four algorithms to characterise and forecast movie performance as well as to recommend potential cross-
 selling opportunities:
 
 ![Screencast](Screenshots/Screen3.png)
 
-### Approach
+#### Approach
 We developed __tools__ to answer each section of the problem.The performance of each movie can be evaluated over time. The movies are __labelled__ first so their __forecasted performance__ is more accurate. __Cross-selling opportunities__ are computed using a __recommendation engine__ and for each country we analyse tags to output the movie themes responsible for the __highest revenues__.
 
 ![Screencast](Screenshots/Screen4.png)
 
 ## Dashboard
 
-### Recommender Engine
+#### Recommender Engine
 We designed a more complex __recommendation engine__ based on the __Agrawal algorithm__. This method revolves around finding __association rules__ in a large dataset of transactions with some minimum amount of __confidence__. A typical example would be if movie A and movie B have a high success in France, there is a 90% chance movie 3 will also be successful in France. Movie A and B are the __antecedent__, movie C the __consequent__ of the rule and 90% the __confidence factor__.
 
 ![Screencast](Screenshots/Screen7.png)
@@ -57,13 +57,13 @@ This tab of the __dashboard__ displays the output of the __recommendation engine
 ![Screencast](Screenshots/Screen8.png)
 
 
-### Forecaster
+#### Forecaster
 This tab of the __dashboard__ we built displays performance of movies __over time__. The user inputs the country where the film is marketed and the __title__ of the movie. This tabisdesignedforcomparisontherefore,theusercanlookat the performance of the same movie in two countries or the movie performances of two movies in different countries.
 
 ![Screencast](Screenshots/Screen6.png)
 
 
-### Tag Analysis
+#### Tag Analysis
 This tab of the __dashboard__ illustrates on one side the __most performing tags__ based on the median revenue of the movie in that category. The user inputs the __home country__ and __country of market__ and __forecasting period__. On the other side, the user enters __tags__ and their __weight__ in addition to the other inputs to obtain a __prediction__ of the revenue for that period as well as the movies __containing__ those tags and their __revenues__.
 
 ![Screencast](Screenshots/Screen5.png)
