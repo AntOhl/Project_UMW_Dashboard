@@ -1,7 +1,9 @@
 
 # 🎥 Under The Mily Way Dashboard
 _The tools developed and incorporated to a dashboard allow the company Under The Milky Way (UMW) to explore cross-selling opportunities and to estimate the potential revenue of a movie from its main themes_
+
 _This work is related to a __corportate research project with the company Under The Milky Way__ and was done by C. Morand-Dval, R. Chen, I. Zizi and A. Ohleyer._
+
 __Due to confidential data, the dashboard cannot be replicated from the code__
 
 ## BUSINESS INSIGHTS
