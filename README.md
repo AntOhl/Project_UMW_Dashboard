@@ -70,11 +70,11 @@ This tab of the __dashboard__ illustrates on one side the __most performing tags
 
 
 ## Conclusion
-### Challenge
+#### Challenge
 The __performance__ of a movie is characterized by the __royalties__ obtained __over time__ across all __platforms__ and all __countries__. We identified the most relevant feature as the __origin of the movie__ and __its themes__. All other criteria have been analysed but does influence the results of predictions as much as those mentioned.
 
-## Tools
+#### Tools
 We have built __four__ different tools to evaluate the performance of a movie and its potential to be cross-sold to another country, platform or both combined. Our __classifier__ labels whether the movies are long-term or one-shot. The __forecaster__ predicts the potential revenue earned for the next __3 months__ for a __specific movie__, __country origin__ and __country of market__. The __recommendation engine__ is designed to __predict__ the best __movie__ to __cross-sell__ to which country-platform pair i.e. it outputs a list of movies to be marketed on different platforms and countries based on a __movie queried__. Finally,the tag analysis allows UMW to evaluate which tags perform better in which country of market. All the __tools__ are easily accessible via the __dashboard__. It has been built with a __long-term__ use perspective in mind.
 
-## Business Impact
+#### Business Impact
 Through out our __analyses__ and the use of the __tools__ created, we have used the __sales data__ to __predict the potential performance__ of films using various __criteria__. We focused on cross-selling movies already in __UMW portfolio__ to new countries and platforms. The company can better __evaluate__ film performances and look for the __most performing__ films to grow its revenues.
