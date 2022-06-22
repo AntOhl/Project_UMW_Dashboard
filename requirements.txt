@@ -11,7 +11,7 @@ Flask==1.1.1
 Flask-Compress==1.4.0
 future==0.18.2
 matplotlib==3.1.2
-numpy==1.18.1
+numpy==1.22.0
 pandas==1.0.0
 plotly==4.5.0
 pmdarima==1.5.3
